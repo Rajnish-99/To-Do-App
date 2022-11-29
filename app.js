@@ -16,7 +16,7 @@ app.set('view engine', 'ejs');
 // mongoose.connect('mongodb://localhost:27017/todolistDB', {
 //   useNewUrlParser: true
 // });
-const uri = "mongodb+srv://adminRaj:Rajnish1999@cluster0.jeqtfdd.mongodb.net";
+const uri = "mongodb+srv://adminRaj:Rajnish@cluster0.jeqtfdd.mongodb.net";
 
 mongoose.connect(uri,{useNewUrlParser: true, dbName:"todolistDB"});
 const itemSchema = new mongoose.Schema({
